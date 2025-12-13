@@ -14,7 +14,7 @@ RUN npm install --production=false
 COPY . .
 
 # Build da aplicação
-RUN npm run build
+RUN npm run build && ls -la dist/ || (echo "Build failed or dist not found" && exit 1)
 
 # Production stage
 FROM node:18-alpine
