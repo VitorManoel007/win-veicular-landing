@@ -96,8 +96,8 @@ if [ -d ".git" ]; then
     print_info "Repositório já existe, atualizando..."
     git pull origin main
 else
-    # Solicitar URL do repositório
-    read -p "Digite a URL do repositório Git: " REPO_URL
+    REPO_URL="https://github.com/VitorManoel007/win-veicular-landing.git"
+    print_info "Clonando: $REPO_URL"
     git clone "$REPO_URL" .
 fi
 print_status "Repositório clonado"
