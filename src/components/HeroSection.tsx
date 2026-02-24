@@ -72,7 +72,7 @@ export const HeroSection = () => {
               className="text-lg font-bold px-8 py-6 bg-gradient-orange hover:shadow-glow transition-all duration-300 hover:scale-105"
               asChild>
 
-              <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">FAÇA SUA COTAÇÃO AGORA!
                 <MessageCircle className="mr-2 h-5 w-5" />
                 FAÇA SUA COTAÇÃO GRÁTIS
               </a>
@@ -84,7 +84,7 @@ export const HeroSection = () => {
               className="text-lg font-bold px-8 py-6 border-2 border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300"
               asChild>
 
-              <a href="tel:+5511999999999">
+              <a className="shadow-sm text-left" href="tel:+5548920133205">​​PEÇA SEU BOLETO  
                 <Phone className="mr-2 h-5 w-5" />
                 LIGUE AGORA
               </a>
