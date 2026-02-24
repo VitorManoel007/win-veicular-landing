@@ -84,7 +84,7 @@ export const HeroSection = () => {
               className="text-lg font-bold px-8 py-6 border-2 border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300"
               asChild>
 
-              <a className="shadow-sm text-left" href="tel:+5548920133205">​​PEÇA SEU BOLETO  
+              <a className="shadow-sm text-left" href="+55 48 2013-3205">​​PEÇA SEU BOLETO
                 <Phone className="mr-2 h-5 w-5" />
                 LIGUE AGORA
               </a>
